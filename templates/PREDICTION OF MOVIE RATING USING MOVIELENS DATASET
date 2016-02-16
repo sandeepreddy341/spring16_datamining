@@ -1,0 +1,53 @@
+
+GROUP PROJECT PROPOSAL
+ON
+“PREDICTION OF MOVIE RATING USING MOVIELENS DATASET"
+
+
+
+Course Title:-Special Topics: Data Mining (MCIS 6183)
+Section:-3
+Group:-5
+
+
+
+
+
+
+Submitted By:-
+Ritesh Pokhrel(99999-0237)
+Tulasi Vikram(99999-0891)
+Sandeep Paila()
+Shashank Kumar Mandaloju(99999-1494)
+
+
+ABSTRACT
+OVERVIEW
+In this project, we build a movie rating prediction system based on selected training sets provided by Movie Lens dataset, several machine learning related algorithms – baseline predictor, KNN, stochastic gradient Descent, SVD, SVD++, asymmetric SVD, integrated model and NMTF are used to predict the rating from particular users for unrated movies. KNN is applied as the main criteria to evaluate their performance. The simulation result shows distinct performance due to selected algorithms as well as the corresponding learning rates.
+DATA:
+We choose MovieLens 100k Data Set1 as our training and testing set. Such set consists of 100,000 ratings (rating score from 1-5) from 943 users on 1682 movies, in which each user has rated at least 20 movies. Among MovieLens 100k Data Set, we choose ua.base/test and ub.base/test for result comparison between different training sets and testing sets; and ua.base/test for model comparison between different algorithms.
+Here is a link provided which directs to the movielens datatset:
+http://grouplens.org/datasets/movielens/
+RESEARCH QUESTIONS:
+We look for all possible algorithms to predict the movie rating.
+Here are the few questions we consider while rating:
+•	What is the benefit of this rating for the production houses?
+MODELS AND ANALYSIS
+KNN algorithm is used here to predict the rating of the movies. The K-nearest neighbor (KNN) classifier is based around the premise that users that have rated movies similar in the past will more than likely rate movies similar in the future The whole set u data is split into a training set and a test set with exactly 10 ratings per user in the test set. The sets ua.test and ub.test are disjoint. We again split the data set ua.base into 10 small disjoint sets. 
+
+CODE:
+We are working on the code in Java and run the code in Eclipse IDE environment..
+PROJECT MANAGEMENT
+Our team consists of four members, Tulasi Vikram and Ritesh Pokhrel  did much of the front end work, whereas Sandeep Paila and Shashank Kumar Mandaloju did the back end part.
+Front end work consists of coding which run the code and produces the results of rating. Back end work consisted of documentation that was created to provide clear explanation of the concept of the project.
+PROJECT TEAM, DELIVERABLES AND CHECKPOINTS
+TEAM
+Team member	Roles and skills	Contributions
+Tulasi Vikram,
+Ritesh Pokhrel	Data Analysis	Data analysis from movie lens dataset;
+Sandeep Pailla
+Shashank kumar Mandaloju	Programming language: Java	Code development which includes all the
+Dataset to predict the rating.
+
+
+
